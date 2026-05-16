@@ -215,7 +215,7 @@ export default function Home() {
         .section-label {
           font-family: 'JetBrains Mono', monospace;
           font-size: 10px; letter-spacing: 0.12em;
-          color: #3f3f46; white-space: nowrap;
+          color: #ffffff; white-space: nowrap;
           text-transform: uppercase;
         }
         .section-line { height: 1px; background: #1a1a1f; flex: 1; }
@@ -264,7 +264,7 @@ export default function Home() {
         .card-num {
           font-family: 'JetBrains Mono', monospace;
           font-size: 10px; letter-spacing: 0.1em;
-          color: #2a2a32;
+          color: ##ffffff;
         }
         .badge {
           font-family: 'JetBrains Mono', monospace;
@@ -274,7 +274,7 @@ export default function Home() {
         }
         .card-title {
           font-size: 15px; font-weight: 700;
-          color: #f4f4f5; letter-spacing: -0.01em;
+          color: #ffffff; letter-spacing: -0.01em;
           line-height: 1.3; margin-bottom: 10px;
         }
         .card-desc {
@@ -321,7 +321,7 @@ export default function Home() {
         .stat-num span { color: #22d3ee; }
         .stat-label {
           font-family: 'JetBrains Mono', monospace;
-          font-size: 10px; color: #3f3f46;
+          font-size: 10px; color: #ffffff;
           letter-spacing: 0.08em;
           text-transform: uppercase;
         }
@@ -338,11 +338,11 @@ export default function Home() {
         }
         .footer-text {
           font-family: 'JetBrains Mono', monospace;
-          font-size: 11px; color: #2a2a32;
+          font-size: 11px; color: ##ffffff;
           letter-spacing: 0.04em;
         }
         .footer-text a {
-          color: #3f3f46; text-decoration: none;
+          color: #ffffff; text-decoration: none;
           transition: color 0.15s ease;
         }
         .footer-text a:hover { color: #22d3ee; }
