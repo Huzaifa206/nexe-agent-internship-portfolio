@@ -1,9 +1,5 @@
 "use client"
 
-// ─── Next.js Portfolio Homepage ───────────────────────────────────────────────
-// File location in your Next.js project: app/page.tsx
-// Replace each task URL with your actual Streamlit app URLs once deployed.
-
 const TASKS = [
   {
     id: "01", title: "Tool-Calling Agent",
@@ -382,7 +378,6 @@ export default function Home() {
             </div>
           </nav>
 
-          {/* Hero */}
           <section className="hero">
             <div className="status-badge">
               <span className="pulse" />
@@ -419,7 +414,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Stats */}
           <div className="stats">
             <div className="stat-card">
               <div className="stat-num">6<span>.</span></div>
@@ -435,7 +429,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Tasks */}
           <div className="section-header">
             <span className="section-label">Internship Tasks</span>
             <div className="section-line" />
@@ -467,7 +460,6 @@ export default function Home() {
             })}
           </div>
 
-          {/* Footer */}
           <footer>
             <span className="footer-text">© 2025 Huzaifa Ahmed Siddiqui</span>
             <span className="footer-text">
